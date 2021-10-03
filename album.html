@@ -10,11 +10,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link
-      rel="shortcut icon"
-      type="image/jpg"
-      href="./assets/img/animeIco.png"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,28 +22,20 @@
     <!-- Header -->
     <div class="header position-fixed-top position-fixed">
       <header class="bg-dark text-center">
-        <h1>Peopple List API by @sanchezcode</h1>
+        <h1>Album List API by @sanchezcode</h1>
         <div class="container">
-          <h2>Lista de personas traidas desde otra app</h2>
-          <button id="btnSearch" type="button" class="btn btn-primary">
-            Buscar
-          </button>
-          <br>
-          <a href="album.html">ALBUM</a>
+          <h2>Lista de fotos traidas desde otra app</h2>
         </div>
+        <br />
+        <a href="index.html">VOLVER</a>
       </header>
     </div>
 
-    <!-- Characters -->
+    <!-- Photos -->
     <div class="container position-relative">
       <div
-        id="dataPeopple"
-        class="
-        dataPeopple
-          position-absolute
-          row row-cols-1 row-cols-md-5
-          g-4
-        "
+        id="dataAlbum"
+        class="dataAlbum position-absolute row row-cols-1 row-cols-md-5 g-4"
       ></div>
     </div>
 
@@ -57,6 +44,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/peoppleApi.js"></script>
+    <script src="./assets/js/albumApi.js"></script>
   </body>
 </html>
