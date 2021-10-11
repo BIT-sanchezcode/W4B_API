@@ -30,7 +30,7 @@ const fillData = (data) => {
     html += "</div>";
     html += "</div>";
   });
-  document.getElementById("dataPeopple").innerHTML = html;
+  document.getElementById("dataPeople").innerHTML = html;
 };
 
 // Sejecuta la API
