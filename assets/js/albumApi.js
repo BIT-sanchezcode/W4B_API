@@ -30,4 +30,5 @@ const fillData = (data) => {
   document.getElementById("dataAlbum").innerHTML = html;
 };
 
+// Se invoca la funcion automaticamente
 getData(API);
